@@ -7,23 +7,23 @@ The original repo was forked from [@zsdonghao](https://github.com/tensorlayer/sr
 
 ###Result
 - LR image, a jepg image
-![Alt text](./0_lr_384_510.jpg)
+![Alt text](./img/0_lr_384_510.jpg)
 Compared  to png source image, jpg image has so many compression artfacts. left is jpg, right is png.
-![Alt text](./compare_lr_chenbao.png)
+![Alt text](./img/compare_lr_chenbao.png)
 - 2x upscale a jepg image use SRGAN
-![Alt text](./0_lr_384_510_2x_gen_noarm_768_1020.png)
+![Alt text](./img/0_lr_384_510_2x_gen_noarm_768_1020.png)
 - 2x upscale a jepg image use my Compresssion-Artifacts-Removal model.
-![Alt text](./0_lr_384_510_2x_gen_pre_768_1020.png)
+![Alt text](./img/0_lr_384_510_2x_gen_pre_768_1020.png)
 Compare  these two result detail. left is  use SRGAN, right is use my compresssion artifacts removal.
-![Alt text](./compare_chenbao.png)
+![Alt text](./img/compare_chenbao.png)
 
 - LR image , a jepg image
-![Alt text](./300x300.jpg)
+![Alt text](./img/300x300.jpg)
 
 - 2x upscale a jepg image use SRGAN
-![Alt text](./300x300_2x_gen.png)
+![Alt text](./img/300x300_2x_gen.png)
 - 2x upscale a jepg image use my Compresssion-Artifacts-Removal model.
-![Alt text](./300x300_2x_gen_pre_600_600.png)
+![Alt text](./img/300x300_2x_gen_pre_600_600.png)
 
 Compression artifacts arise in 2x SR images whenever a lossy compression algorithm is applied in jepg format LR image. But after I trained with HR image and  corresponding  LR image with jepg compression artifacts , most of artifacts has been removal.
 It's also work in jepg LR image 4x-upscale.
