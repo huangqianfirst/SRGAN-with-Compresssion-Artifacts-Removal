@@ -9,6 +9,7 @@ The original repo was forked from [@zsdonghao](https://github.com/tensorlayer/sr
 - LR image, a jepg image
 
 ![Alt text](./img/0_lr_384_510.jpg)
+
 Compared  to png source image, jpg image has so many compression artfacts. left is jpg, right is png.
 
 ![Alt text](./img/compare_lr_chenbao.png)
